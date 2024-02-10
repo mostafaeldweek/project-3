@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="email-form">
+      <p>E-mail Inputs</p>
+      <label for="receiverEmail">Receiver Email:</label>
+      <input
+        type="email"
+        id="receiverEmail"
+        placeholder="Receiver Email"
+        name="receiverEmail"
+        required
+      />
+
+      <label for="subject">Subject:</label>
+      <input
+        type="text"
+        id="subject"
+        placeholder="subject"
+        name="subject"
+        required
+      />
+
+      <label for="message">Message:</label>
+      <textarea
+        id="message"
+        name="message"
+        placeholder="message"
+        rows="4"
+        required
+      ></textarea>
+
+      <div class="btnContainer"><button>SUBMIT BUTTON</button></div>
+    </form>
+
+    <script></script>
+  </body>
+</html>

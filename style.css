@@ -1,0 +1,67 @@
+body {
+  font-family: sans-serif;
+  background: linear-gradient(#141e30, #243b55);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.email-form {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  color: #fff;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  width: 400px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 8px;
+  color: #fff;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+
+input:focus,
+textarea:focus {
+  box-shadow: 3px 3px 3px inset rgba(9, 247, 255, 0.425),
+    -3px -3px 5px inset rgba(8, 204, 211, 0.425);
+}
+
+button {
+  background-color: #03e9f4;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 0 5px #03e9f4, 0 0 20px #03e9f4;
+}
+.btnContainer,
+p {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+p {
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
